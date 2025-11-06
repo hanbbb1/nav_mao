@@ -5,7 +5,15 @@ export const mockData = {
       "icon": "💻",
       "name": "我的站点",
       "order": 0,
-      "sites": []
+      "sites": [
+        {
+          "id": "site-1762428676294",
+          "name": "设置",
+          "url": "https://nav.vids.netlib.re/admin",
+          "description": "",
+          "icon": ""
+        }
+      ]
     },
     {
       "id": "my-favorites",
@@ -47,13 +55,6 @@ export const mockData = {
           "url": "https://curlconverter.com/",
           "description": "curl命令转换工具",
           "icon": "/sitelogo/curlconverter.com.ico"
-        },
-        {
-          "id": "site-1762428676294",
-          "name": "设置",
-          "url": "https://nav.vids.netlib.re/admin",
-          "description": "",
-          "icon": ""
         }
       ]
     },
